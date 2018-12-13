@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+      <ion-title>Categorias</ion-title>
+      <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <button ion-item (click)="listproduto()">
+      <ion-icon name="informatica" item-start></ion-icon>
+      Informática
+    </button>
+    
+    <button ion-item (click)="listproduto()">
+      <ion-icon name="mesasebanho" item-start></ion-icon>
+      Mesas e Banho
+    </button>
+    
+    <button ion-item (click)="listproduto()">
+      <ion-icon name="celulares" item-start></ion-icon>
+      Celulares
+    </button>
+  </ion-list>
+</ion-content>
+
